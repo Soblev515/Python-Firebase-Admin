@@ -15,7 +15,7 @@ window.title("The translator databases")
 window.geometry('720x400')
 print('ok')
 
-# Ссылка на секретный ключ
+# Ссылка на Сервисный ключ от БД на Firebase
 cred = credentials.Certificate('D:/fe/github/iOS_Library/iOS_Library/smart-library-8a179-firebase-adminsdk-c01sz-f51272754e.json')
 
 # Подключаемся к  БД
