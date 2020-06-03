@@ -2,7 +2,8 @@
 =====================
 Python-Firebase-Admin
 ----------------------------------
-This repositories is help you job this Farebase server using Python.
+This repository contains basic templates that will help you work with the Farebase server using Python.
+The functionality will be added over time.
 More information in the official documentation:<https://firebase.google.com/docs/admin/setup>
 
 Add the SDK
@@ -40,7 +41,8 @@ When authorizing via a service account, you have two choices for providing the c
 =====================
 Python-Firebase-Admin
 ----------------------------------
-Эти репозитории помогут вам работать с сервером Farebase с помощью Python.
+Этот репозиторий содержит основные шаблоны, которые помогут вам работать с сервером Farebase с помощью Python. 
+Функционал будет добавляться со временем.  
 Более подробная информация в официальной документации:<https://firebase.google.com/docs/admin/setup>
 
 Добавьте SDK
