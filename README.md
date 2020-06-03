@@ -24,10 +24,10 @@ To authenticate a service account and authorize it to access Firebase services, 
 
 To generate a private key file for your service account:
 
-    In the Firebase console, open Settings > Service Accounts.
+1. In the Firebase console, open Settings > Service Accounts.
 
-    Click Generate New Private Key, then confirm by clicking Generate Key.
+2. Click Generate New Private Key, then confirm by clicking Generate Key.
 
-    Securely store the JSON file containing the key.
+3. Securely store the JSON file containing the key.
 
 When authorizing via a service account, you have two choices for providing the credentials to your application. You can either set the GOOGLE_APPLICATION_CREDENTIALS environment variable, or you can explicitly pass the path to the service account key in code.
