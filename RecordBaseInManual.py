@@ -11,30 +11,29 @@ firebase_admin.initialize_app(cred)
 # Подключаемся
 db = firestore.client()
 
-print('Введите ID книги. до знака \ пишем ББК после ИН')
+print('Введите название коллекции:')
+collection = input()
+
+print('Введите название документа:')
 ID = input()
 
-print('Введите имя книги')
-name = input()
-
-print('Введите ID автора')
-IDauthor = input()
-
-print('Введите ФИО автора, без пробелов')
-Author = input()
-
-print('Введите год издания')
-date = input()
-
-print('Введите издателя')
-publisher = input()
-
 #Запись
-doc_ref = db.collection(u'NewBook').document(ID)
-doc_ref.set({
-    u'Name': name,
-    u'IDauthor': IDauthor,
-    u'Author': Author,
-    u'date': date,
-    u'publisher': publisher
-})
+doc_ref = db.collection(collection).document(ID)
+print('Вводите информацию так: |Название переменной|: |Значение переменной|')
+print('Вводите |break| если ввод информации закончен')
+while 1!=0:
+    info = input()
+    if(info == "break"):
+        break
+    a=len(info)
+    for i to len:
+        name += i
+        if i+1 = ":":
+            i+=2            
+            while i!= a:
+                value += i
+            break
+    
+    doc_ref.set({
+        name: value,
+    })
