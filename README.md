@@ -1,4 +1,5 @@
 **Eng**
+=====================
 # Python-Firebase-Admin
 
 This repositories is help you job this Farebase server using Python.
@@ -33,7 +34,10 @@ To generate a private key file for your service account:
 
 When authorizing via a service account, you have two choices for providing the credentials to your application. You can either set the GOOGLE_APPLICATION_CREDENTIALS environment variable, or you can explicitly pass the path to the service account key in code.
 
+
+
 **Rus**
+=====================
 # Python-Firebase-Admin
 
 Эти репозитории помогут вам работать с сервером Farebase с помощью Python.
