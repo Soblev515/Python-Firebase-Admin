@@ -1,11 +1,11 @@
 **Eng**
 =====================
-# Python-Firebase-Admin
+Python-Firebase-Admin
 ----------------------------------
 This repositories is help you job this Farebase server using Python.
 More information in the official documentation:<https://firebase.google.com/docs/admin/setup>
 
-# Add the SDK
+Add the SDK
 ----------------------------------
 In first, you need to install the SDK for Python.
 The Firebase Admin Python SDK is available via pip. You can install the library for all users via sudo:
@@ -16,7 +16,7 @@ Or, you can install the library for just the current user by passing the --user 
 
 >$ pip install --user firebase-admin
 
-# Initialize the SDK
+Initialize the SDK
 ----------------------------------
 Once you have created a Firebase project, you can initialize the SDK with an authorization strategy that combines your service account file together with Google Application Default Credentials.
 
@@ -38,12 +38,12 @@ When authorizing via a service account, you have two choices for providing the c
 
 **Rus**
 =====================
-# Python-Firebase-Admin
+Python-Firebase-Admin
 ----------------------------------
 Эти репозитории помогут вам работать с сервером Farebase с помощью Python.
 Более подробная информация в официальной документации:<https://firebase.google.com/docs/admin/setup>
 
-# Добавьте SDK
+Добавьте SDK
 ----------------------------------
 Во-первых, вам нужно установить SDK для Python.
 Firebase Admin Python SDK  доступен через pip. Вы можете установить библиотеку для всех пользователей через sudo:
@@ -54,7 +54,7 @@ Firebase Admin Python SDK  доступен через pip. Вы можете у
 
 >$ pip install --user firebase-admin
 
-# Инициализация пакета SDK
+Инициализация пакета SDK
 ----------------------------------
 После того как вы создали проект Firebase, вы можете инициализировать SDK с помощью стратегии авторизации, которая объединяет ваш файл учетной записи службы вместе с учетными данными приложения Google по умолчанию.
 
